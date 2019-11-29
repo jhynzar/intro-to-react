@@ -4,8 +4,8 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
 
 ## Sections Checklist:
 1. **Before We Start the Tutorial**
-    - [ ] What Are We Building?
-    - [ ] Prerequisites
+    - [X] What Are We Building?
+    - [X] Prerequisites
 2. **Setup for the Tutorial**
     - [ ] Option 1: Write Code in the Browser
     - [ ] Option 2: Local Development Environment
