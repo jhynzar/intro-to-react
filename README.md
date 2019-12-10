@@ -7,9 +7,9 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
     - [X] What Are We Building?
     - [X] Prerequisites
 2. **Setup for the Tutorial**
-    - [ ] Option 1: Write Code in the Browser
-    - [ ] Option 2: Local Development Environment
-    - [ ] Help, I'm Stuck!
+    - [X] Option 1: Write Code in the Browser
+    - [X] Option 2: Local Development Environment
+    - [X] Help, I'm Stuck!
 3. **Overview**
     - [ ] What Is React?
     - [ ] Inspecting the Starter Code
