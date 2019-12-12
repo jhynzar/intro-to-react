@@ -11,11 +11,11 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
     - [X] Option 2: Local Development Environment
     - [X] Help, I'm Stuck!
 3. **Overview**
-    - [ ] What Is React?
-    - [ ] Inspecting the Starter Code
-    - [ ] Passing Data Through Props
-    - [ ] Making an Interactive Component
-    - [ ] Developer Tools
+    - [X] What Is React?
+    - [X] Inspecting the Starter Code
+    - [X] Passing Data Through Props
+    - [X] Making an Interactive Component
+    - [X] Developer Tools
 4. **Completing the Game**
     - [ ] Lifting State Up
     - [ ] Why Immutability Is Important
