@@ -19,7 +19,7 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
 4. **Completing the Game**
     - [X] Lifting State Up
     - [X] Why Immutability Is Important
-    - [ ] Function Components
+    - [X] Function Components
     - [ ] Taking Turns
     - [ ] Declaring a Winner
 5. **Adding Time Travel**
