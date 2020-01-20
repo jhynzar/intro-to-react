@@ -21,7 +21,7 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
     - [X] Why Immutability Is Important
     - [X] Function Components
     - [X] Taking Turns
-    - [ ] Declaring a Winner
+    - [X] Declaring a Winner
 5. **Adding Time Travel**
     - [ ] Storing a History of Moves
     - [ ] Lifting State Up, Again
