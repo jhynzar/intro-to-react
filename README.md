@@ -25,10 +25,10 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
 5. **Adding Time Travel**
     - [X] Storing a History of Moves
     - [X] Lifting State Up, Again
-    - [ ] Showing the Past Moves
-    - [ ] Picking a Key
-    - [ ] Implementing Time Travel
-    - [ ] Wrapping Up
+    - [X] Showing the Past Moves
+    - [X] Picking a Key
+    - [X] Implementing Time Travel
+    - [X] Wrapping Up
 
 ---
 **Project Started:** `2019-09-06`
