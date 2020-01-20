@@ -23,8 +23,8 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
     - [X] Taking Turns
     - [X] Declaring a Winner
 5. **Adding Time Travel**
-    - [ ] Storing a History of Moves
-    - [ ] Lifting State Up, Again
+    - [X] Storing a History of Moves
+    - [X] Lifting State Up, Again
     - [ ] Showing the Past Moves
     - [ ] Picking a Key
     - [ ] Implementing Time Travel
