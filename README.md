@@ -17,8 +17,8 @@ This is a repository to practice ReactJs from its ["Tutorial: Intro to React" Tu
     - [X] Making an Interactive Component
     - [X] Developer Tools
 4. **Completing the Game**
-    - [ ] Lifting State Up
-    - [ ] Why Immutability Is Important
+    - [X] Lifting State Up
+    - [X] Why Immutability Is Important
     - [ ] Function Components
     - [ ] Taking Turns
     - [ ] Declaring a Winner
