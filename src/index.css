@@ -49,3 +49,11 @@ ul {
 .game-info {
     margin-left: 20px;
 }
+
+.game-info > ol > li > button {
+    font-weight: inherit;
+}
+
+.highlight {
+    font-weight: bold;
+}

@@ -127,8 +127,14 @@ class Game extends React.Component {
                 '( ' + coordinates.join(' , ') + (' )') :
                 '';
 
+            //Highlight if selected move
+            const hasHighlightClass = (move === this.state.stepNumber) ? 'highlight' : '';
+
             return (
-                <li key={move}>
+                <li 
+                    key={move}
+                    className={hasHighlightClass}
+                >
                     <button onClick={() => this.jumpTo(move)}>{desc}</button>
                     <span> {moveLoc} </span>
                 </li>
