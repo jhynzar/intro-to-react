@@ -81,6 +81,7 @@ class Game extends React.Component {
             ],
             stepNumber: 0,
             xIsNext: true,
+            movesSortType: 'ASC',
         }
     }
 
@@ -134,12 +135,28 @@ class Game extends React.Component {
 
     }
 
+    changeMovesSortType(sortType) {
+
+        const sortTypes = [
+            'ASC',
+            'DESC'
+        ];
+
+        if (!sortTypes.includes(sortType)) {
+            return;
+        }
+
+        this.setState({
+            movesSortType: sortType,
+        });
+    }
+
     render() {
         const history = this.state.history;
         const current = history[this.state.stepNumber];
         const winner = calculateWinner(current.squares);
 
-        const moves = history.map((step, move) => {
+        let moves = history.map((step, move) => {
 
             const desc = move ?
                 'Go to move #' + move :
@@ -165,6 +182,11 @@ class Game extends React.Component {
             );
         });
 
+        //If movesSortType is Desc, Reverse the moves (Initial movesSortType is 'ASC')
+        if (this.state.movesSortType === 'DESC') {
+            moves = moves.reverse();
+        }
+
         let status;
         if (winner) {
             status = 'Winner: ' + winner;
@@ -182,6 +204,10 @@ class Game extends React.Component {
                 </div>
                 <div className="game-info">
                     <div>{status}</div>
+                    <div>Sort: 
+                        <button onClick={() => this.changeMovesSortType('ASC')}>ASC</button>
+                        <button onClick={() => this.changeMovesSortType('DESC')}>DESC</button>
+                    </div>
                     <ol>{moves}</ol>
                 </div>
             </div>
